@@ -36,7 +36,7 @@ function Menu() {
 
   return (
     <>
-      <div className={`${isScrolled? 'scrollmenu' : ''} flex w-full  p-7 justify-between  top-0 bg-white z-20`}>
+      <div id="menu" className={`${isScrolled? 'scrollmenu' : ''} flex w-full  p-7 justify-between  top-0 bg-white z-20`}>
         <h1 id="name" className={`basis-1/12 sm:text-3xl text-2xl font-bold leading-8 `}>TitanFall</h1>
         <span className="material-symbols-outlined lg:hidden " onClick={menushow}>
             menu
