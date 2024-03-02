@@ -2,6 +2,6 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url('../../../public/background2.png') no-repeat center/cover;
+    background: url('/background2.png') no-repeat center/cover;
     z-index: -1;
 }

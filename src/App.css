@@ -3,3 +3,9 @@ input[type="text"]:focus {
     outline: none;
   }
   
+  button{
+    transition:  box-shadow 0.5s;
+  }
+  button:hover{
+    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0, 0.5);
+  }
